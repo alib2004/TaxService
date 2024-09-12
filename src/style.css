@@ -66,7 +66,6 @@ header {
     color: white;
 }
 .btn3{
-    /*hover:bg-white hover:text-green-600 hover:border hover:border-black */
     background-color: transparent;
     color: white;
     border: 1px solid white ;
@@ -76,4 +75,24 @@ header {
     background-color: white;
     color: #15803d;
     border: 1px solid black;
+}
+/* div3 */
+.whydoc{
+  font-family: kalameh-bold;
+}
+.pwhydoc{
+  line-height: 3em;
+  text-align: justify;
+}
+/* div4 */
+.div4{
+  background-color: #166534;
+}
+.servicep{
+  font-size: 0.9em;
+  line-height: 2em;
+  text-align: justify;
+}
+.content-box{
+  height: 700px;
 }
