@@ -94,5 +94,52 @@ header {
   text-align: justify;
 }
 .content-box{
-  height: 700px;
+  min-height: 750px;
+}
+.btndiv4{
+  background-color: #16a34a;
+  color: white;
+  font-size: 16px;
+  border: 1px solid #16a34a;
+  transition: all 0.5s;
+}
+.btndiv4:hover{
+  background-color: transparent;
+  border: 1px solid black;
+  color: black;
+}
+
+.form-bg{
+  background-image: url(./img/membership_img.png);
+  background-size: cover;
+  height: 600px;
+}
+.form{
+  text-align: center;
+}
+.form input{
+  border-radius: 30px;
+  padding: 10px;
+  width: 300px;
+  background-color: rgb(226, 253, 253);
+  border: none;
+  outline: none;
+}
+.form button{
+    background-color: #16a34a;
+    color: white;
+    border: 1px solid white ;
+    transition: all 0.5s;
+}
+.form button:hover{
+    background-color: white;
+    color: #15803d;
+    border: 1px solid black;
+}
+.form-h4{
+  font-family: kalameh-bold;
+}
+.swiper {
+  width: 600px;
+  height: 300px;
 }
