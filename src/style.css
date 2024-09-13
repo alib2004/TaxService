@@ -1,5 +1,5 @@
-:root{
-    --green600 : '#16a34a';
+:root {
+  --green600: "#16a34a";
 }
 @font-face {
   font-family: kalameh-bold;
@@ -14,12 +14,21 @@
 body {
   font-family: kalameh;
 }
-a{
-    text-decoration: none;
-    color: black;
+a {
+  text-decoration: none;
+  color: black;
 }
-h1,h2{
-    font-family: kalameh-bold;
+h1,
+h2 {
+  font-family: kalameh-bold;
+}
+ul {
+  padding: 0;
+}
+ul li {
+  list-style-type: none;
+  list-style-position: outside;
+  text-align: center;
 }
 /* header */
 header {
@@ -32,114 +41,163 @@ header {
   width: 70px;
 }
 
-.phones-text{
-    color: #16a34a;
+.phones-text {
+  color: #16a34a;
 }
 /* div1 */
-.div1{
-    background-color: #f1f5f9;
+.div1 {
+  background-color: #f1f5f9;
 }
-.btn1{
-    background-color: #15803d;
-    border: 1px solid #15803d;
-    color: white;
-    transition: all 0.5s;
+.btn1 {
+  background-color: #15803d;
+  border: 1px solid #15803d;
+  color: white;
+  transition: all 0.5s;
 }
-.btn1:hover{
-    background-color: transparent;
-    color: black;
-    border: 1px solid black;
+.btn1:hover {
+  background-color: transparent;
+  color: black;
+  border: 1px solid black;
 }
-.btn2{
-    background-color: transparent;
-    border: 1px solid black;
-    color: black;
-    transition: all 0.5s;
+.btn2 {
+  background-color: transparent;
+  border: 1px solid black;
+  color: black;
+  transition: all 0.5s;
 }
-.btn2:hover{
-    background-color: #15803d;
-    border: 1px solid #15803d;
-    color: white;
+.btn2:hover {
+  background-color: #15803d;
+  border: 1px solid #15803d;
+  color: white;
 }
-.div2{
-    background-color: #166534;
-    color: white;
+.div2 {
+  background-color: #166534;
+  color: white;
 }
-.btn3{
-    background-color: transparent;
-    color: white;
-    border: 1px solid white ;
-    transition: all 0.5s;
+.btn3 {
+  background-color: transparent;
+  color: white;
+  border: 1px solid white;
+  transition: all 0.5s;
 }
-.btn3:hover{
-    background-color: white;
-    color: #15803d;
-    border: 1px solid black;
+.btn3:hover {
+  background-color: white;
+  color: #15803d;
+  border: 1px solid black;
 }
 /* div3 */
-.whydoc{
+.whydoc {
   font-family: kalameh-bold;
 }
-.pwhydoc{
+.pwhydoc {
   line-height: 3em;
   text-align: justify;
 }
 /* div4 */
-.div4{
+.div4 {
   background-color: #166534;
 }
-.servicep{
+.servicep {
   font-size: 0.9em;
   line-height: 2em;
   text-align: justify;
 }
-.content-box{
+.content-box {
   min-height: 750px;
 }
-.btndiv4{
+.btndiv4 {
   background-color: #16a34a;
   color: white;
   font-size: 16px;
   border: 1px solid #16a34a;
   transition: all 0.5s;
 }
-.btndiv4:hover{
+.btndiv4:hover {
   background-color: transparent;
   border: 1px solid black;
   color: black;
 }
 
-.form-bg{
+.form-bg {
   background-image: url(./img/membership_img.png);
   background-size: cover;
   height: 600px;
 }
-.form{
+.form {
   text-align: center;
 }
-.form input{
+.form input {
   border-radius: 30px;
   padding: 10px;
   width: 300px;
-  background-color: rgb(226, 253, 253);
+  background-color: rgb(71, 248, 248);
   border: none;
   outline: none;
 }
-.form button{
-    background-color: #16a34a;
-    color: white;
-    border: 1px solid white ;
-    transition: all 0.5s;
+.form button {
+  background-color: #16a34a;
+  color: white;
+  border: 1px solid white;
+  transition: all 0.5s;
 }
-.form button:hover{
-    background-color: white;
-    color: #15803d;
-    border: 1px solid black;
+.form button:hover {
+  background-color: white;
+  color: #15803d;
+  border: 1px solid black;
 }
-.form-h4{
+.form-h4 {
   font-family: kalameh-bold;
 }
 .swiper {
   width: 600px;
   height: 300px;
+}
+.rate {
+  font-family: kalameh-bold;
+}
+.div5 {
+  background-color: #f1f5f9;
+}
+.img-aboutus {
+  max-width: 800px;
+}
+.box-aboutus h5 {
+  font-family: kalameh-bold;
+}
+.box-aboutus p {
+  line-height: 2em;
+}
+.box-aboutus button {
+  font-family: kalameh-bold;
+  border-radius: 40px;
+  padding: 10px 20px;
+  background-color: transparent;
+  transition: all 0.5s;
+}
+.box-aboutus button:hover {
+  background-color: rgb(253, 236, 236);
+}
+footer {
+  background-color: #166534;
+  color: white;
+}
+.foot img {
+  max-width: 50px;
+}
+.icons img {
+  max-width: 30px;
+}
+.list li {
+  margin: 10px 0;
+}
+.list li a {
+  color: rgb(219, 219, 219) !important;
+  font-size: 0.9rem;
+}
+.design p {
+  padding-top: 20px;
+  transition: all 1s;
+}
+.ops {
+  opacity: 0;
 }
