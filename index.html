@@ -13,7 +13,7 @@
   <body>
     <header class="container-fluid">
       <div
-        class="container mx-auto py-3 d-flex justify-content-between align-items-center"
+        class="container d-none mx-auto py-3 d-md-flex justify-content-between align-items-center"
       >
         <div class="d-flex align-items-center gap-4">
           <a href="#" class="logo-link"
@@ -41,26 +41,64 @@
           </svg>
         </div>
       </div>
+      <div class="d-md-none container py-3 mx-auto d-flex justify-content-between align-items-center header-mobile user-select-none">
+        <div>
+          <div>
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="icon-open-menu">
+              <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25H12" />
+            </svg>
+          </div>
+        </div>
+        <img src="./src/img/tadbirHesab_logo.png" class="">
+      </div>
+      <div class="menu-mobile d-none d-flex flex-column justify-content-between pb-5 user-select-none">
+        <div class="align-self-start">
+          <ul class="ulist-menu">
+            <li><a href="#">خدمات</a></li>
+            <li><a href="#">مقالات</a></li>
+            <li><a href="#">درباره ما</a></li>
+          </ul>
+        </div>
+        <div class="align-self-center d-flex gap-3">
+          <span class="">09901232336</span>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="none"
+            viewBox="0 0 24 24"
+            stroke-width="1.5"
+            stroke="currentColor"
+            class="icon-phone stroke-green-500"
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              d="M2.25 6.75c0 8.284 6.716 15 15 15h2.25a2.25 2.25 0 0 0 2.25-2.25v-1.372c0-.516-.351-.966-.852-1.091l-4.423-1.106c-.44-.11-.902.055-1.173.417l-.97 1.293c-.282.376-.769.542-1.21.38a12.035 12.035 0 0 1-7.143-7.143c-.162-.441.004-.928.38-1.21l1.293-.97c.363-.271.527-.734.417-1.173L6.963 3.102a1.125 1.125 0 0 0-1.091-.852H4.5A2.25 2.25 0 0 0 2.25 4.5v2.25Z"
+            />
+          </svg>
+        </div>
+      </div>
     </header>
     <!-- first div -->
     <div class="div1">
-      <div
-        class="container mx-auto d-flex justify-content-between align-items-center py-5"
-      >
-        <div class="ps-5">
-          <h2 class="display-5" data-aos="zoom-in">نسخه ای برای مالیات شما</h2>
-          <h4 class="py-4" data-aos="fade-up">
-            سرویس تخصصی مالیات، ویژه پزشکان
-          </h4>
-          <div class="text-sm d-flex gap-3">
+      <div class="container mx-auto d-flex flex-column flex-md-row align-items-center justify-content-between py-5">
+        <!-- div1 -->
+         <div class="w-100">
+          <div class="md-ps-5 d-md-block d-flex flex-column align-items-center">
+            <h2 class="display-5" data-aos="zoom-in">نسخه ای برای مالیات شما</h2>
+            <h4 class="py-4" data-aos="fade-up">
+              سرویس تخصصی مالیات، ویژه پزشکان
+            </h4>
+          </div>
+          <div class="text-sm d-flex flex-column flex-md-row gap-3 align-items-stretch">
             <button class="btn1 rounded-5 py-3 px-4 h5">خدمات دکترتکس</button>
             <button class="btn2 rounded-5 py-3 px-4 h5">
               با ما در تماس باشید
             </button>
           </div>
-        </div>
-        <div>
-          <img src="./src/img/intro_img.png" alt="" class="w-72" />
+         </div>         
+        <!-- div2 -->
+        <div class="w-100 img-doc text-end">
+          <img src="./src/img/intro_img.png" alt="" class="div2img" />
         </div>
       </div>
     </div>

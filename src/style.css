@@ -201,3 +201,29 @@ footer {
 .ops {
   opacity: 0;
 }
+.header-mobile img{
+  width: 40px;
+}
+.icon-open-menu{
+  width: 30px;
+  cursor: pointer;
+}
+.menu-mobile{
+  height: 90vh;
+}
+.ulist-menu li{
+  margin-bottom: 15px;
+  font-family: kalameh-bold;
+  font-size: 1.5rem;
+}
+.div2img{
+ height: 70%;
+}
+@media screen and (max-width: 576px){
+  .img-doc{
+    text-align: center !important;
+  }
+  .div2img{
+    width: 80%;
+   }
+}
